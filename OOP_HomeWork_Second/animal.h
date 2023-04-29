@@ -5,12 +5,12 @@ class Animal {
 private:
 	string name; //название 
 	int weight; //вес
-	int voracity; //прожорливость - кг \ д
+	double voracity; //прожорливость - кг \ д
 public:
 
 	Animal();
 	Animal(string nm);
-	Animal(string nm, int wgth, int vcity);
+	Animal(string nm, int wgth, double vcity);
 	~Animal();
 
 	string get_name();
@@ -20,7 +20,7 @@ public:
 	void set_weight(int wght);
 
 	int get_voracity();
-	void set_voracity(int vcity);
+	void set_voracity(double vcity);
 
 	string converting_to_string();
 };

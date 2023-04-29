@@ -12,7 +12,7 @@ Animal::Animal(string nm) {
 	weight = 10;
 	voracity = 2;
 }
-Animal::Animal(string nm, int wght, int vcity) {
+Animal::Animal(string nm, int wght, double vcity) {
 	name = nm;
 	weight = wght;
 	voracity = vcity;
@@ -38,10 +38,10 @@ void Animal::set_weight(int wght) {
 int Animal::get_voracity() {
 	return voracity;
 }
-void Animal::set_voracity(int vcity) {
+void Animal::set_voracity(double vcity) {
 	voracity = vcity;
 }
 
 string Animal::converting_to_string() {
-	return "Name: " + name + "\nWeight: " + to_string(weight) + "\nVoracity: " + to_string(voracity);
+	return "Name: " + name + " Weight: " + to_string(weight) + " Voracity: " + to_string(voracity);
 }

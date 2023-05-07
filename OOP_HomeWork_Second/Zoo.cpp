@@ -1,10 +1,12 @@
 #include "Zoo.h"
 
+int Zoo::count_zoo = 0;
 
 Zoo::Zoo() {
 	name = "noname";
 	size = 0;
 	rating = 0;
+	count_zoo++;
 }
 Zoo::Zoo(Animal* anim, string nm, int sz, int rate) {
 	name = nm;
@@ -20,7 +22,7 @@ Zoo::Zoo(Animal* anim, string nm, int sz, int rate) {
 		size = 0;
 	}
 	rating = rate;
-
+	count_zoo++;
 }
 Zoo::Zoo(string nm, int rate) {
 	name = nm;
@@ -32,10 +34,10 @@ Zoo::Zoo(string nm, int rate) {
 	else {
 		rating = 0;
 	}
-
+	count_zoo++;
 }
 Zoo::~Zoo() {
-
+	count_zoo--;
 }
 
 string Zoo::get_name() {
@@ -65,6 +67,10 @@ void Zoo::add_animal(Animal animal) {
 		animals[size] = animal;
 		size++;
 	}
+}
+
+int Zoo::get_count_zoo() {
+	return count_zoo;
 }
 
 string Zoo::converting_to_string() {

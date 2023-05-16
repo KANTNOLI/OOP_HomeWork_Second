@@ -27,6 +27,9 @@
     <ClCompile Include="predator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="herbivorous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -39,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="predator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="herbivorous.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

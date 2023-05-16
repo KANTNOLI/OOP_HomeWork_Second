@@ -1,6 +1,6 @@
 #pragma once
+#include "herbivorous.h"
 #include "predator.h"
-#include "animal.h"
 
 class Zoo {
 public:

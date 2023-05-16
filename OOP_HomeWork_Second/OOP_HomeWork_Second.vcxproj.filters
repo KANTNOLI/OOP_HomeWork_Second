@@ -18,10 +18,13 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Animal.cpp">
+    <ClCompile Include="animal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Zoo.cpp">
+    <ClCompile Include="zoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="predator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +35,10 @@
     <ClInclude Include="animal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Zoo.h">
+    <ClInclude Include="zoo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="predator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

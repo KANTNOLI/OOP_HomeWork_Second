@@ -43,5 +43,5 @@ void Animal::set_voracity(double vcity) {
 }
 
 string Animal::converting_to_string() {
-	return "Name: " + name + " Weight: " + to_string(weight) + " Voracity: " + to_string(voracity);
+	return "Name: " + name + "\nWeight: " + to_string(weight) + "\nVoracity: " + to_string(voracity);
 }

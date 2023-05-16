@@ -1,11 +1,11 @@
 #pragma once
-
+#include "predator.h"
 #include "animal.h"
 
 class Zoo {
 public:
 	static const int DEFAULT_SIZE = 15;  // Допустим такой момент, что существует закон на ограничение кол-ва животных в зоо-парках для сохранения экологии и для наработки моего скилла :)
-	static const int DEFAULT_MAX_RATING = 100;  // Допустим такой момент, что существует закон на ограничение кол-ва животных в зоо-парках для сохранения экологии и для наработки моего скилла :)
+	static const int DEFAULT_MAX_RATING = 100;  
 private:
 	static int count_zoo;
 	Animal animals[DEFAULT_SIZE];

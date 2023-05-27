@@ -1,5 +1,9 @@
 #include "animal.h"
 
+Animal::~Animal() {
+
+}
+
 string Animal::get_name() {
 	return name;
 }

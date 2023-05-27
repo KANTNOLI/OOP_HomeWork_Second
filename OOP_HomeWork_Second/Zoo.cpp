@@ -8,7 +8,7 @@
 //	rating = 0;
 //	count_zoo++;
 //}
-//Zoo::Zoo(Animal* anim, string nm, int sz, int rate) {
+//Zoo::Zoo(Animal* anim[DEFAULT_SIZE], string nm, int sz, int rate) {
 //	name = nm;
 //	if (sz <= DEFAULT_SIZE)
 //	{

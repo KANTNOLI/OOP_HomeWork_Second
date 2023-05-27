@@ -9,7 +9,7 @@ private:
 public: 
 
 	Predator() : Animal("NoName", 0, 0), food("NoFood"), danger(0) {};
-	Predator(string name, int weight, double voracity, string food2, int danger2) : Animal(name, weight, voracity), food(food), danger(danger) {};
+	Predator(string name, int weight, double voracity, string food, int danger) : Animal(name, weight, voracity), food(food), danger(danger) {};
 	~Predator();
 
 	string get_food();

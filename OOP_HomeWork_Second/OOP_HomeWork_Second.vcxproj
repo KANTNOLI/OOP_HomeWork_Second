@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="animal.cpp" />
+    <ClCompile Include="foodShop.cpp" />
     <ClCompile Include="herbivorous.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="predator.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animal.h" />
+    <ClInclude Include="foodShop.h" />
     <ClInclude Include="herbivorous.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="predator.h" />

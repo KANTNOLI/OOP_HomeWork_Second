@@ -1,5 +1,9 @@
 #include "predator.h"
 
+Predator::~Predator() {
+
+}
+
 string Predator::get_food() {
 	return food;
 }

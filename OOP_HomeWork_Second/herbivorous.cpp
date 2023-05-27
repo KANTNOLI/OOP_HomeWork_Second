@@ -1,5 +1,9 @@
 #include "herbivorous.h"
 
+Herbivorous::~Herbivorous() {
+
+}
+
 string Herbivorous::get_enemies() {
 	return enemies;
 }

@@ -8,19 +8,18 @@ private:
 	double voracity; //прожорливость - кг \ д
 public:
 
-	Animal();
-	Animal(string nm);
-	Animal(string nm, int wgth, double vcity);
+	Animal() : name("NoName"), weight(0), voracity(0) {};
+	Animal(string name, int weight, double voracity) : name(name), weight(weight), voracity(voracity) {};
 	~Animal();
 
 	string get_name();
-	void set_name(string nm);
+	void set_name(string name);
 
 	int get_weight();
-	void set_weight(int wght);
+	void set_weight(int weight);
 
 	int get_voracity();
-	void set_voracity(double vcity);
+	void set_voracity(double voracity);
 
 	string converting_to_string();
 };

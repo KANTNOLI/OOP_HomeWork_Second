@@ -1,29 +1,17 @@
 #include "predator.h"
 
-Predator::Predator() {
-	food = "The animal is friendly but hungry";
-	danger = 0.00;
-}
-Predator::Predator(string food2, int danger2) {
-	food = food2;
-	danger = danger2;
-}
-Predator::~Predator() {
-
-}
-
 string Predator::get_food() {
 	return food;
 }
-void Predator::set_food(string food2) {
-	food = food2;
+void Predator::set_food(string food) {
+	this->food = food;
 }
 
 int Predator::get_danger() {
 	return danger;
 }
-void Predator::set_danger(int danger2) {
-	danger = danger2;
+void Predator::set_danger(int danger) {
+	this->danger = danger;
 }
 
 string Predator::converting_to_string() {

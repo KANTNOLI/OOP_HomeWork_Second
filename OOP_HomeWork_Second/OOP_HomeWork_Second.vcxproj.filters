@@ -24,12 +24,6 @@
     <ClCompile Include="zoo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="predator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="herbivorous.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="foodShop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,12 +36,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="zoo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="predator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="herbivorous.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="foodShop.h">

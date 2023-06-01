@@ -15,7 +15,7 @@ private:
 	int number_meals_day; // Кол-во еды в день для животных
 public:
 
-	Zoo() : name("name"), size(0), rating(0), number_meals_day(0) {};
+	Zoo();
 	Zoo(Animal* animal, string name, int size, int rating, int number_meals_day);
 	~Zoo();
 

@@ -3,9 +3,9 @@
 class Dog : public Animal
 {
 private:
-	double weight;
-	double foodEaten; // В ккал
-	double averageCaloriesBurned;
+	double weight; //вес
+	double foodEaten; // В ккал, сколько набирается  в день
+	double averageCaloriesBurned; // в ккал, сколько сжигается в день
 public:
 	Dog() : weight(10), foodEaten(900), averageCaloriesBurned(900) {}; //В 1 кг жира - 9.000 ккал 
 	Dog(double weight, double averageCaloriesBurned) :

@@ -2,8 +2,6 @@
 #include "main.h"
 
 class Animal {
-private:
-
 public:
 
 	virtual double calculate_calories();
